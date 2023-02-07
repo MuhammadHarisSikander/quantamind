@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import TransportRequestForm from './screens/transportRequestForm';
+import { Tabs, Tab } from '@mui/material';
 import './App.css';
 
 function App() {
+  // let value
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TransportRequestForm />
+    // <Tabs style={{ display: 'flex', justifyContent: 'space-around', justifySelf: 'self-start', flex: 1 }} variant={'fullWidth'} value={value} aria-label="disabled tabs example">
+    //   <Tab label="Active" />
+    //   <Tab label="Disabled" />
+    //   <Tab label="Active" />
+    // </Tabs>
+
   );
 }
 
